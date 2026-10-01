@@ -208,27 +208,11 @@ p {
 	color: var(--ink-muted);
 }
 
-.location-shell,
-.assets-shell {
+.location-shell {
 	background: #ffffff;
 	border: 1px solid var(--line-soft);
 	border-radius: 16px;
 	padding: 1.5rem;
-}
-
-.assets {
-	padding: 3.25rem 0;
-}
-
-.assets-shell p {
-	color: var(--ink-muted);
-}
-
-.assets-image {
-	border-radius: 12px;
-	height: auto;
-	margin-top: 1rem;
-	max-width: 100%;
 }
 
 .site-footer {
@@ -280,8 +264,7 @@ p {
 
 	.hero-copy,
 	.hero-panel,
-	.location-shell,
-	.assets-shell {
+	.location-shell {
 		padding: 1.25rem;
 	}
 }
